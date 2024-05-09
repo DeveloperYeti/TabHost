@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@android:id/tabhost"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/flower1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F398C0"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:src="@drawable/dowww"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                >
+
+
+            </ImageView>
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/flower2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F398C0"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:src="@drawable/doww"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    >
+
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/flower3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F398C0"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:src="@drawable/dow"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    >
+
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/flower4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F398C0"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:src="@drawable/images"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    >
+
+
+                </ImageView>
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/white"
+    >
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+    </TabWidget>
+</LinearLayout>
+</TabHost>
